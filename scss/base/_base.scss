@@ -1,0 +1,10 @@
+body{
+	font-family:$base-primary-font-family;
+	font-size:$base-font-size;
+}
+
+#container {
+    .container {
+        max-width: $base-site-width;
+    }
+}

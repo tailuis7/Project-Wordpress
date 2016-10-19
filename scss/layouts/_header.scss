@@ -1,0 +1,126 @@
+header {
+    .logo {
+        background: url("../img/logo.png") center no-repeat;
+        display: block;
+        margin: 15px;
+        padding: 0;
+        overflow: hidden;
+        height: 60px;
+        width: 250px;
+    }
+    .navbar {
+        min-height: 40px;
+    }
+    .navbar-default {
+        background-image: none;
+        background-color: transparent;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        margin: 0;
+        .navbar-collapse {
+            background: linear-gradient(to bottom, #787878 0%, #666666 100%);
+            padding: 0;
+            .navbar-nav {
+                li {
+                    &:not(:first-child):hover {
+                        background: #e12;
+                    }
+                    .home {
+                        background: url('../img/icon-home.png') center no-repeat;
+                        border: none;
+                        padding-top: 30px;
+                        width: 50px;
+                        background-color: #555;
+                    }
+                    a {
+                        text-transform: uppercase;
+                        color: #ffffff !important;
+                        font-weight: bold;
+                        padding: 10px 10px;
+                    }
+                }
+            }
+        }
+    }
+    .section-hot-category-news {
+        .container {
+            .row {
+                margin: 0;
+                background: -webkit-linear-gradient(top, #f8f8f8 0%, #eeeeee 100%);
+                border-bottom: solid 1px #999;
+                box-shadow: inset 0 -1px 0 #ddd;
+                .hot-category {
+                    padding-left: 5px;
+                    ul {
+                        margin-top: 5px;
+                        li {
+                            padding: 0 6px;
+                            a {
+                                text-transform: uppercase;
+                                color: #333;
+                                font-weight: bold;
+                                font-size: 13px;
+                                &:hover {
+                                    text-decoration: none;
+                                    color: #e12;
+                                }
+                            }
+                        }
+                    }
+                }
+                .hot-news {
+                    padding: 0;
+                    border-left: solid 1px #888;
+                    .row {
+                        margin-top: 5px;
+                        border: none;
+                        overflow: hidden;
+                        .hot-news-caption {
+                            padding: 0;
+                            margin-left: 5px;
+                            background: #e12;
+                            border-radius: 3px;
+                            color: #fff;
+                            letter-spacing: -1px;
+                            line-height: 22px;
+                            font-weight: bold;
+                            width: 60px;
+                            text-align: center;
+                            &:after {
+                                border-left: solid 6px #e12;
+                                border-bottom: solid 4px transparent;
+                                border-top: solid 4px transparent;
+                                content: '';
+                                margin-top: 6px;
+                                margin-left: 5px;
+                                position: absolute;
+                            }
+                            span {
+                                font-size: 11px;
+                                text-transform: uppercase;
+                            }
+                        }
+                        .hot-news-items {
+                            padding: 0;
+                            padding-left: 10px;
+                            max-height: 30px;
+                            .slider {
+                                .item-slider {
+                                    a {
+                                        font-size: 12px;
+                                        color: #666;
+                                        &:hover {
+                                            text-decoration: none;
+                                            color: #e12;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+/* Fixed Menu */
+
+.section-fixed-menu {
+    .navbar {
+        min-height: 32px;
+    }
+    .navbar-default {
+        max-height: 32px;
+    }
+    .fixed-menu {
+        background-image: none;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        border-bottom: solid 1px #eee;
+        margin-bottom: 0;
+        .navbar-collapse {
+            ul {
+                li {
+                    &:first-child {
+                        a {
+                            padding-left: 0;
+                        }
+                    }
+                    a {
+                        padding: 5px 15px;
+                    }
+                    .home {
+                        &:hover {
+                            color: #e12;
+                        }
+                    }
+                    .fixtures {
+                        &:hover {
+                            color: #393;
+                        }
+                    }
+                    .video {
+                        &:hover {
+                            color: #60c;
+                        }
+                    }
+                    .topics {
+                        &:hover {
+                            color: #fc0;
+                        }
+                    }
+                }
+            }
+            .navbar-right {
+                margin-right: -30px !important;
+            }
+        }
+        .search-form {
+            margin-top: 4px;
+            .form-group {
+                position: relative;
+            }
+            input {
+                font-size: 12px;
+                margin: 0;
+                outline: none;
+                height: 21px;
+                border-radius: 0;
+                &:first-child {
+                    width: 250px;
+                    padding-left: 4px;
+                }
+                &:last-child {
+                    background-image: url("../img/search-icon.png");
+                    background-repeat: no-repeat;
+                    text-indent: -160px;
+                    background-color: transparent;
+                    border: none;
+                    width: 10%;
+                    position: absolute;
+                    right: -5px;
+                    top: 4px;
+                }
+            }
+        }
+    }
+}
