@@ -104,4 +104,16 @@
         .all-content {
             margin-top: 25px;
         }
+        /***
+         * Fix float Right Bar
+         */
+         .right-bar {
+            clear: both;
+         }
+         /***
+         * Fix iFrame
+         */
+         .banner {
+            display: none;
+         }
     }
