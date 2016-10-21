@@ -107,13 +107,19 @@
         /***
          * Fix float Right Bar
          */
-         .right-bar {
+        .right-bar {
             clear: both;
-         }
-         /***
+        }
+        /***
          * Fix iFrame
          */
-         .banner {
+        .banner {
             display: none;
-         }
+        }
+        /***
+         * Fix icon video and icon result
+         */
+        .section-main-content .left-bar .content-item .main-news {
+            margin-top: 50px;
+        }
     }
