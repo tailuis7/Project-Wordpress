@@ -1,0 +1,93 @@
+/* Footer */
+
+footer {
+    margin-top: 10px;
+    .top-footer {
+        border-top: solid 5px #eee;
+        padding-top: 10px;
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        .footer-title {
+            color: #333;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: solid 1px #eee;
+            margin-top: 5px;
+            height: 20px;
+        }
+        ul {
+            margin-top: -7px;
+            li {
+                a {
+                    font-size: 13px;
+                    color: #555;
+                }
+            }
+        }
+    }
+    .logo-footer {
+        background: #aaa;
+        color: #ddd;
+        font-size: 12px;
+        padding: 10px 0;
+        .logo {
+            background: url('../img/logo-footer.png') center no-repeat;
+            border-right: solid 1px #fff;
+            margin: 0 10px;
+            height: 50px;
+            width: 250px;
+            display: block;
+            float: left;
+        }
+        b {
+            color: #fff;
+            font-size: 14px;
+        }
+        .go-top {
+            background: #ccc url('../img/icon-go-top.png') center no-repeat;
+            margin: 5px 10px;
+            overflow: hidden;
+            height: 40px;
+            width: 40px;
+            border-radius: 2px;
+            box-shadow: 0 1px 2px #aaa;
+            float: right;
+            &:hover {
+                box-shadow: 0 1px 2px #333;
+            }
+        }
+    }
+    .site-information-footer {
+        background: #f3f3f3;
+        margin-top: 2px;
+        padding: 10px;
+        h4 {
+            color: #333;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 14px;
+            margin: 0;
+        }
+        a {
+            color: #555;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .copybar {
+        border-top: solid 1px #ccc;
+        color: #e12;
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}

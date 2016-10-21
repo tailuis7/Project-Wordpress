@@ -548,7 +548,6 @@
                         padding: 0 5px;
                         li {
                             padding-left: 10px;
-                            
                             a {
                                 display: block;
                                 border-bottom: solid 1px #eee;
@@ -570,6 +569,108 @@
                                 border-bottom: none;
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+    /* Section Company News */
+    
+    .section-company-news {
+        .container {
+            .company-news-slider {
+                background: #f3f3f3;
+                position: relative;
+
+                .owl-prev,
+                .owl-next {
+                    position: absolute;
+                    a {
+                        color: #aaa;
+                        font-size: 16px;
+                        font-weight: bold;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .owl-prev {
+                    top: -36px;
+                    right: 10px;
+                }
+                .owl-next {
+                    top: -36px;
+                    right: -5px;
+                }
+                h4 {
+                    border-top: solid 1px #ddd;
+                    border-bottom: dotted 1px #ddd;
+                    color: #e12;
+                    font-size: 14px;
+                    font-weight: bold;
+                    padding: 0 10px;
+                    line-height: 30px;
+                    margin: 0;
+                    text-transform: uppercase;
+                }
+                .slider-3 {
+                    clear: both;
+                    padding: 0 6px;
+                    .item-slider-3 {
+                        margin-top: 10px;
+                        padding-left: 0;
+                        border-right: solid 1px #f3f3f3;
+                        ul {
+                            li {
+                                max-width: 240px;
+                                a {
+                                    &:hover {
+                                        text-decoration: none;
+                                    }
+                                    &:hover .title h3 {
+                                        color: #e12;
+                                    }
+                                    img {
+                                        float: left;
+                                        margin: 2px 10px 10px 0;
+                                        max-width: 115px;
+                                    }
+                                    .title {
+                                        h3 {
+                                            color: #444;
+                                            font-size: 12px;
+                                            font-weight: bold;
+                                            margin-top: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        /* position: relative;
+                    a {
+                        &:hover {
+                            text-decoration: none;
+                        }
+                        &:hover h3 {
+                            color: #e12;
+                        }
+                        &:hover .icon-play {
+                            background-image: url('../img/icon-play-video_hover.png');
+                        }
+                        .icon-play {
+                            position: absolute;
+                            top: 66px;
+                            background-image: url('../img/icon-play-video.png');
+                            background-repeat: no-repeat;
+                            width: 40px;
+                            height: 40px;
+                        }
+                        h3 {
+                            font-size: 13px;
+                            color: #222;
+                            outline: none;
+                        }
+                    } */
                     }
                 }
             }

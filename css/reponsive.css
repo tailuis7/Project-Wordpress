@@ -1,44 +1,107 @@
-/*
+    /*
     Created on : Nov 1, 2013, 2:54:26 PM
     Author     : Tai Luis
 */
-
-
-/* #Tablet (Landscape) 1024px
+    /* #Tablet (Landscape) 1024px
 ---------------------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 960px) and (max-width: 1240px) {
-    /***
+    
+    @media only screen and (min-width: 960px) and (max-width: 1240px) {
+        /***
      * 
      */
-}
-
-
-/* #Tablet (Portrait) 768px
+    }
+    /* #Tablet (Portrait) 768px
 ---------------------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    /***
+    
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        /***
      * 
      */
-}
-
-
-/* #Mobile (Landscape) 480px
+    }
+    /* #Mobile (Landscape) 480px
 ---------------------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    /***
-     * 
-     */
-}
-
-
-/*  #Mobile (Portrait) 320px
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        /***
+         * Fix Fixed Menu
+         */
+        .section-fixed-menu .navbar,
+        .section-fixed-menu .navbar-default {
+            min-height: 50px;
+        }
+        .section-fixed-menu .fixed-menu .navbar-collapse ul li:first-child a {
+            padding-left: 15px;
+        }
+        .navbar-default .navbar-collapse,
+        .navbar-default .navbar-form {
+            background-color: #ffffff;
+        }
+        .section-fixed-menu .fixed-menu .navbar-collapse .navbar-right {
+            margin-right: 0 !important;
+        }
+        .section-fixed-menu .fixed-menu .search-form input:last-child {
+            right: 0;
+            left: 230px;
+        }
+        /***
+         * Fix iFrame
+         */
+        .bdscframe {
+            display: none;
+        }
+    }
+    /*  #Mobile (Portrait) 320px
 ---------------------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 100px) and (max-width: 479px) {
-    /***
-     * 
-     */
-}
+    
+    @media only screen and (min-width: 100px) and (max-width: 479px) {
+        /***
+         * Fix Fixed Menu
+         */
+        .section-fixed-menu .navbar,
+        .section-fixed-menu .navbar-default {
+            min-height: 50px;
+        }
+        .section-fixed-menu .fixed-menu .navbar-collapse ul li:first-child a {
+            padding-left: 15px;
+        }
+        .navbar-default .navbar-collapse,
+        .navbar-default .navbar-form {
+            background-color: #ffffff;
+        }
+        .section-fixed-menu .fixed-menu .navbar-collapse .navbar-right {
+            margin-right: 0 !important;
+        }
+        .section-fixed-menu .fixed-menu .search-form input:last-child {
+            right: 0;
+            left: 170px;
+        }
+        .section-fixed-menu .fixed-menu .search-form input:first-child {
+            width: auto;
+            padding-left: 4px;
+        }
+        /***
+         * Fix Header Logo
+         */
+        header .logo {
+            margin: 0;
+            margin-top: 30px;
+        }
+        /***
+         * Fix Footer Logo
+         */
+        footer .logo-footer .logo {
+            margin: 0;
+        }
+        /***
+         * Fix iFrame
+         */
+        .bdscframe {
+            display: none;
+        }
+        /***
+         * Fix Other Content Items
+         */
+        .all-content {
+            margin-top: 25px;
+        }
+    }
